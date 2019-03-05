@@ -1,0 +1,6 @@
+framework module Pods_AnotherShortRealmTest_190304 {
+  umbrella header "Pods-AnotherShortRealmTest_190304-umbrella.h"
+
+  export *
+  module * { export * }
+}
