@@ -17,6 +17,11 @@ class DetailVC: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         print(selectedCategory ?? "nope")
+        titleNavBar()
+    }
+    
+    func titleNavBar() {
+        title = selectedCategory?.puzzleNames ?? "No Name available"
     }
     
     
