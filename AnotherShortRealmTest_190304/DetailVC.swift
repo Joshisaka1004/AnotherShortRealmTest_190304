@@ -13,7 +13,7 @@ class DetailVC: UITableViewController {
 
     var detailResults: Results<SpecialPuzzle>?
     var selectedCategory: PuzzleFamilies?
-    var temporary: [String]?
+    //var temporary: [String]?
     let realm = try! Realm()
     
     override func viewDidLoad() {
